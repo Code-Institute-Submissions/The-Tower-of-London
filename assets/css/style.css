@@ -7,3 +7,25 @@ body {
     font-size: 400%;
     text-align: center;
 }
+
+#hero-outer {
+    height:600px;
+    width:100%; 
+    overflow: hidden;
+    position: relative;
+}
+#cover-text, #cover-text h2 {
+    color:#ffff;
+
+}
+/*hero-image*/
+
+#hero-image {
+    height:1000px;
+    width:60%;
+    background: url('../Images/hero-image.jpg') no-repeat; enter center;
+    margin-left:  19%;
+    
+  
+
+}

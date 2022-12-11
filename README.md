@@ -1,5 +1,7 @@
-The Tower of London is a site exploring the colourful history of one of London's most famous landmarks. 
-<p>This site is aimed at anyone interested in its history, the crown jewels, the many kings and queens buried there and of course, those looking for information on how to visit.</p>
+The Tower of London is a site exploring the colourful and rich history of one of London's most iconic landmarks. 
+<p>This site is aimed at anyone interested in the crown jewels, the beheadings, and the many historical figures buried there. It also provides information on how to visit.</p>
+
+Thanks to Harry, 
 
 
 
