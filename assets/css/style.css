@@ -1,19 +1,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
 
+* {
+    margin:0;
+    padding:0;
+    border:none;
+}
 
-body {
+
+h1 {
     font-family: Cinzel Decorative;
-    font-size: 400%;
+    font-size: 200%;
     text-align: center;
 }
-
-#hero-outer {
-    height:600px;
-    width:100%; 
-    overflow: hidden;
-    position: relative;
+body {
+    font-size: 300%;
+    font-family:'Times New Roman', Times, serif;
 }
+
+
 #cover-text, #cover-text h2 {
     color:#ffff;
 
@@ -21,10 +26,11 @@ body {
 /*hero-image*/
 
 #hero-image {
-    height:1000px;
+    height:500px;
     width:100%;
     background: url('../Images/hero-image.jpg') no-repeat; enter center;
-    margin-left: 0%; 
+    position:relative;
+    
 }
 
 
