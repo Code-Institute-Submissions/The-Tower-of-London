@@ -1,41 +1,47 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
 
 * {
-    margin:0;
-    padding:0;
-    border:none;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 
 h1 {
     font-family: Cinzel Decorative;
-    font-size: 200%;
+    font-size: 600%;
     text-align: center;
 }
-body {
-    font-size: 300%;
-    font-family:'Times New Roman', Times, serif;
+
+header {
+    font-size: 200%;
+    font-family: 'Luxurious Roman', cursive;
+    color: black;
 }
 
 
-#cover-text, #cover-text h2 {
-    color:#ffff;
-
-}
 /*hero-image*/
 
 #hero-image {
-    height:500px;
-    width:100%;
-    background: url('../Images/hero-image.jpg') no-repeat; enter center;
-    position:relative;
-    
-}
-body {
-    font-family: 'Luxurious Roman', cursive;
+    height: 500px;
+    width: 100%;
+    background: url('../Images/hero-image.jpg') no-repeat;
+    enter center;
+    position: relative;
 }
 
+/*navigation links*/
 
+#menu {
+    font-size: 120%;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    order:reversed;
+
+}
 
