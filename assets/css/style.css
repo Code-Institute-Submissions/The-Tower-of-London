@@ -10,7 +10,7 @@
 
 h1 {
     font-family: Cinzel Decorative;
-    font-size: 600%;
+    font-size: 552%;
     text-align: center;
 }
 
@@ -26,6 +26,7 @@ header {
 #hero-outer {
     height: 500px;
     width: 100%;
+    overflow: hidden;
 
 }
 
@@ -35,6 +36,7 @@ header {
     background: url('../Images/hero-image.jpg') no-repeat;
     enter center;
     position: relative;
+
 
 /*animates zoom effect on landing page*/
 
