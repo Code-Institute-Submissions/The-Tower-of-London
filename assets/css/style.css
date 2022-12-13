@@ -38,11 +38,11 @@ header {
     position: relative;
 
 
-/*animates zoom effect on landing page*/
+    /*animates zoom effect on landing page*/
 
-animation-name:hero-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 /*creates the zoom for hero-image*/
@@ -69,15 +69,16 @@ animation-fill-mode: forwards;
     float: right;
     list-style-type: none;
     margin-right: 110px;
-    order: reversed;     
+    order: reversed;
 }
 
 #menu a {
     text-decoration: none;
-    color:red; 
+    color: red;
 }
+
 #menu a:hover {
-    border-bottom:  1px solid black;
+    border-bottom: 1px solid black;
 }
 
 #raven {
