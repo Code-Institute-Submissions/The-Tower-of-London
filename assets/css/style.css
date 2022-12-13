@@ -68,7 +68,14 @@ animation-fill-mode: forwards;
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 110px;
     order: reversed;
+  
+}
 
+#menu a {
+    
+}
+#quote {
+    padding-top:10%
 }
