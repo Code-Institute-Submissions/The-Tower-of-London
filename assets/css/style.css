@@ -10,7 +10,7 @@
 
 h1 {
     font-family: Cinzel Decorative;
-    font-size: 552%;
+    font-size: 300%;
     text-align: center;
 }
 
@@ -69,13 +69,14 @@ animation-fill-mode: forwards;
     float: right;
     list-style-type: none;
     margin-right: 110px;
-    order: reversed;
-  
+    order: reversed;     
 }
 
 #menu a {
-    
+    text-decoration: none;
+    color:red; 
 }
-#quote {
-    padding-top:10%
+#menu a:hover {
+    border-bottom:  1px solid black;
 }
+
