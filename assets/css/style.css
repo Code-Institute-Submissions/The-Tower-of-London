@@ -7,6 +7,21 @@
     border: none;
 }
 
+/* Media Query*/
+
+/*For smaller screen sizes from 320px wide*/
+
+@media screen and (min-width: 320px) {
+    #menu {
+        height:fit-content;
+        width:fit-content;
+
+       
+    }
+
+    
+}
+
 
 h1 {
     font-family: Cinzel Decorative;
@@ -33,8 +48,7 @@ header {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url('../Images/hero-image.jpg') no-repeat;
-    enter center;
+    background: url('../Images/hero-image.jpg') no-repeat; center center;
     position: relative;
 
 
@@ -68,7 +82,7 @@ header {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 110px;
+    margin-right: 150px;
     order: reversed;
 }
 
@@ -86,27 +100,38 @@ header {
     padding-left: 225px;
 
 }
+
 /*footer styling*/
-footer
-{
-    height:150px;
+footer {
+    height: 150px;
 
 }
-.social-networks
-{
-text-align: center;
+
+.social-networks {
+    text-align: center;
 }
-.social-networks >li {
-    display:inline;
+
+.social-networks>li {
+    display: inline;
 }
+
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding:5%;
-    color:#3a3a3a;
-   
+    padding: 5%;
+    color: #3a3a3a;
+
 }
 
 
-    /* A bloody history */
+/* A bloody history */
 
+.history-pic {
+    height: 500px;
+    width: 100%;
+    url('../Images/outer\ tower.jpg') no-repeat; center center;
+    position: relative;
+
+}
+
+/*The timeline */
