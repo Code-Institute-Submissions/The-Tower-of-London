@@ -29,6 +29,14 @@ h1 {
     text-align: center;
 }
 
+#raven {
+    font-family: Cinzel Decorative;
+    font-size: 100%;
+    text-align: center;
+    padding-left: 0%;
+    padding-top: 4%;
+}
+
 header {
     font-size: 200%;
     font-family: 'Luxurious Roman', cursive;
@@ -98,8 +106,7 @@ header {
 }
 
 #raven {
-    padding-top: 100px;
-    padding-left: 225px;
+ 
 
 }
 
@@ -121,11 +128,18 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
-
+    color: #3a3a3a
 }
+/*for small screens of 640px*/
+
+@mediascreen and (min width: 640px;) {
+#menu li {
+  
+    
+      }
+   
+} 
 
 
-/* A bloody history */
 
 
