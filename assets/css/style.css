@@ -80,10 +80,12 @@ header {
 }
 
 #menu li {
-    float: right;
+  
+    float:right;
     list-style-type: none;
-    margin-right: 150px;
-    order: reversed;
+    margin-left: 90px;
+    padding:40px 40px;
+  
 }
 
 #menu a {
@@ -126,12 +128,4 @@ footer {
 
 /* A bloody history */
 
-.history-pic {
-    height: 500px;
-    width: 100%;
-    url('../Images/outer\ tower.jpg') no-repeat; center center;
-    position: relative;
 
-}
-
-/*The timeline */
