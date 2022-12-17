@@ -128,6 +128,10 @@ h1 {
 }
 /*Timeline Section*/
 
+#Timeline {
+    text-align: center;
+    position: relative;
+}
 
 aside {
     width: 30%;
@@ -147,5 +151,6 @@ section p {
     padding-left: 20rem;
     font-size: 200%;
     position: relative;
+    text-align: center;
 
 }
