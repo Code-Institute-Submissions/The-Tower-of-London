@@ -20,6 +20,7 @@ header {
     font-family: 'Luxurious Roman', cursive;
     color: black;
 }
+
 /*navigation links*/
 
 #menu {
@@ -29,10 +30,11 @@ header {
 #menu li {
     text-align: center;
     list-style-type: none;
-    font-size: 120%;
-    float:right;
+    font-size: 110%;
+    float: right;
     letter-spacing: 50%;
-    margin-right: 350px;;
+    margin-right: 350px;
+    ;
 }
 
 #menu a {
@@ -122,5 +124,28 @@ h1 {
     #logo {
         font-size: 200%;
     }
+
+}
+/*Timeline Section*/
+
+
+aside {
+    width: 30%;
+    padding-left: .5rem;
+    margin: .5rem;
+    float: left;
+    border-left: 1px solid navy;
+    font-style:normal
+    color: navy;
+
+}
+section {
+	display: flex;
+}
+section p {
+	width: 30%;
+    padding-left: 20rem;
+    font-size: 200%;
+    position: relative;
 
 }
