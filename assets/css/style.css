@@ -10,7 +10,7 @@
 
 #logo {
     font-family: Cinzel Decorative;
-    font-size: 350%;
+    font-size: 340%;
     text-align: center;
 }
 
@@ -29,13 +29,13 @@ header {
 }
 
 #menu li {
-    text-align: center;
+  
     list-style-type: none;
     font-size: 150%;
-    float: right;
-    letter-spacing: 50%;
-    margin-right: 350px;
-    ;
+    float:right;
+    letter-spacing: 20%;
+    padding-right: 20%;
+    
 }
 
 #menu a {
@@ -99,21 +99,20 @@ div.desc {
 
 @media screen and (max-width:480px) {
 
-    #menu li {
+#menu li {
 
-        margin-left: 30%;
+        margin-left:40%;
         margin-bottom: 0%;
         float: left;
-        flex-direction: row-reverse;
 
     }
 
-    #logo {
+#logo {
         font-size: 200%;
     }
 
 
-/*Timeline Section*/
+/*Timeline Section for mobile screens of 480px*/
 
 #Timeline {
     text-align: center;
@@ -141,23 +140,49 @@ section p {
     text-align: center;
 
 }
+/*gallery styling for small screens of 480px*/
+
+div.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+    height: auto;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
 
 /*for medium screens of 500px*/
 
 @media screen and (max-width:500px) {
 
-    #menu  {
-      
-        float: right;
-
-    }
-
+    #menu li {
+    
+            margin-left:40%;
+            margin-bottom: 0%;
+            float: left;
+    
+        }
+    
     #logo {
-        font-size: 200%;
-    }
-}
+            font-size: 200%;
+        }
+    
 
-/*Timeline Section*/
+/*Timeline Section for screens of 500px*/
 
 #Timeline {
     text-align: center;
