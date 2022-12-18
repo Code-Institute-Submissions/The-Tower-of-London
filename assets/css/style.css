@@ -48,40 +48,11 @@ header {
 
 
 /*hero-image*/
-
-#hero-outer {
-    height: 500px;
+img {
     width: 100%;
-    overflow: hidden;
+    height: auto;
+  }
 
-}
-
-#hero-image {
-    height: 500px;
-    width: 100%;
-    background: url('../Images/hero-image.jpg') no-repeat;
-    center center;
-    margin-left: 12%;
-
-
-    /*animates zoom effect on landing page*/
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-/*creates the zoom for hero-image*/
-
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-}
 
 h1 {
     text-align: center;
@@ -89,20 +60,19 @@ h1 {
 
 /*footer styling*/
 
-.social-networks {
-    text-align: center;
+footer
+{
+    height:150px;
+
 }
 
-.social-networks>li {
-    display: inline;
-}
+/*gallery styling*/
 
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a
-}
+img {
+    width: 100%;
+    height: auto;
+  }
+   
 
 /*Media Queries*/
 
@@ -139,8 +109,8 @@ aside {
     margin: .5rem;
     float: left;
     border-left: 1px solid navy;
-    font-style:normal
-    color: navy;
+    font-style:normal;
+    color:black;
 
 }
 section {
@@ -149,7 +119,7 @@ section {
 section p {
 	width: 30%;
     padding-left: 10rem;
-    font-size: 200%;
+    font-size: 100%;
     position: relative;
     text-align: center;
 
