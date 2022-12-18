@@ -95,7 +95,7 @@ div.desc {
 
 /*Media Queries*/
 
-/*for small mobile screens of 640px*/
+/*for small mobile screens of 480px*/
 
 @media screen and (max-width:480px) {
 
@@ -112,7 +112,7 @@ div.desc {
         font-size: 200%;
     }
 
-}
+
 /*Timeline Section*/
 
 #Timeline {
@@ -141,3 +141,48 @@ section p {
     text-align: center;
 
 }
+
+/*for medium screens of 500px*/
+
+@media screen and (max-width:500px) {
+
+    #menu  {
+      
+        float: right;
+
+    }
+
+    #logo {
+        font-size: 200%;
+    }
+}
+
+/*Timeline Section*/
+
+#Timeline {
+    text-align: center;
+    position: relative;
+}
+
+aside {
+    width: 30%;
+    padding-left: .5rem;
+    margin: .5rem;
+    float: left;
+    border-left: 1px solid navy;
+    font-style:normal;
+    color:black;
+
+}
+section {
+	display: flex;
+}
+section p {
+	width: 30%;
+    padding-left: 10rem;
+    font-size: 100%;
+    position: relative;
+    text-align: center;
+
+}
+
