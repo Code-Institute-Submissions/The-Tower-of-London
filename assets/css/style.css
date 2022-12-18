@@ -25,17 +25,17 @@ header {
 /*navigation links*/
 
 #menu {
-    font-size: 120%;
+    font-size: 110%;
 }
 
 #menu li {
-  
+
     list-style-type: none;
-    font-size: 150%;
-    float:right;
+    font-size: 140%;
     letter-spacing: 20%;
-    padding-right: 20%;
-    
+    padding-right: 7%;
+
+
 }
 
 #menu a {
@@ -52,7 +52,7 @@ header {
 img {
     width: 100%;
     height: auto;
-  }
+}
 
 
 h1 {
@@ -61,86 +61,12 @@ h1 {
 
 /*footer styling*/
 
-footer
-{
-    height:150px;
+footer {
+    height: 200px;
 
 }
 
 /*gallery styling*/
-
-div.gallery {
-  margin: 20px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 400px;
-  height: auto;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-   
-
-/*Media Queries*/
-
-/*for small mobile screens of 480px*/
-
-@media screen and (max-width:480px) {
-
-#menu li {
-
-        margin-left:40%;
-        margin-bottom: 0%;
-        float: left;
-
-    }
-
-#logo {
-        font-size: 200%;
-    }
-
-
-/*Timeline Section for mobile screens of 480px*/
-
-#Timeline {
-    text-align: center;
-    position: relative;
-}
-
-aside {
-    width: 30%;
-    padding-left: .5rem;
-    margin: .5rem;
-    float: left;
-    border-left: 1px solid navy;
-    font-style:normal;
-    color:black;
-
-}
-section {
-	display: flex;
-}
-section p {
-	width: 30%;
-    padding-left: 10rem;
-    font-size: 100%;
-    position: relative;
-    text-align: center;
-
-}
-/*gallery styling for small screens of 480px*/
 
 div.gallery {
     margin: 20px;
@@ -148,66 +74,184 @@ div.gallery {
     float: left;
     width: 400px;
     height: auto;
-  }
-  
-  div.gallery:hover {
+}
+
+div.gallery:hover {
     border: 1px solid #777;
-  }
-  
-  div.gallery img {
+}
+
+div.gallery img {
     width: 100%;
     height: auto;
-    
-  }
-  
-  div.desc {
+}
+
+div.desc {
     padding: 15px;
     text-align: center;
-  }
+}
 
-/*for medium screens of 500px*/
 
-@media screen and (max-width:500px) {
+
+/*Media Queries*/
+
+/*for small mobile screens of 480px*/
+
+@media screen and (max-width:480px) {
 
     #menu li {
+
+        margin-left: 40%;
+        margin-bottom: 0%;
+        float: left;
+
+    }
+
+    #logo {
+        font-size: 200%;
     
-            margin-left:40%;
+    }
+    
+
+    /*Timeline Section for mobile screens of 480px*/
+
+    #Timeline {
+        text-align: center;
+        position: relative;
+    }
+
+    aside {
+        width: 30%;
+        padding-left: .5rem;
+        margin: .5rem;
+        float: left;
+        font-style: normal;
+        color: black;
+
+    }
+
+    section {
+        display: flex;
+    }
+
+    section p {
+        width: 30%;
+        padding-left: 10rem;
+        font-size: 100%;
+        position: relative;
+        text-align: center;
+
+    }
+
+
+    /*gallery styling for small screens of 480px*/
+
+    div.gallery {
+        margin: 20px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 400px;
+        height: auto;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+
+    /*for medium screens of 500px*/
+
+    @media screen and (max-width:500px) {
+
+        #menu li {
+
+            margin-left: 40%;
             margin-bottom: 0%;
             float: left;
-    
+
         }
-    
-    #logo {
+
+        #logo {
             font-size: 200%;
         }
-    
 
-/*Timeline Section for screens of 500px*/
 
-#Timeline {
-    text-align: center;
-    position: relative;
-}
+        /*Timeline Section for screens of 500px*/
 
-aside {
-    width: 30%;
-    padding-left: .5rem;
-    margin: .5rem;
-    float: left;
-    border-left: 1px solid navy;
-    font-style:normal;
-    color:black;
+        #Timeline {
+            text-align: center;
+            position: relative;
+        }
 
-}
-section {
-	display: flex;
-}
-section p {
-	width: 30%;
-    padding-left: 10rem;
-    font-size: 100%;
-    position: relative;
-    text-align: center;
+        aside {
+            width: 30%;
+            padding-left: .5rem;
+            margin: .5rem;
+            float: left;
+            border-left: 1px solid navy;
+            font-style: normal;
+            color: black;
 
-}
+        }
 
+        section {
+            display: flex;
+        }
+
+        section p {
+            width: 30%;
+            padding-left: 10rem;
+            font-size: 100%;
+            position: relative;
+            text-align: center;
+
+        }
+
+        /*for medium screens of 900px*/
+
+        @media screen and (max-width:900px) {}
+
+        #logo {
+            font-size: 200%;
+        }
+
+
+        /*Timeline Section for screens of 900px*/
+
+        #Timeline {
+            text-align: center;
+            position: relative;
+        }
+
+        aside {
+            width: 30%;
+            padding-left: .5rem;
+            margin: .5rem;
+            float: left;
+            border-left: 1px solid navy;
+            font-style: normal;
+            color: black;
+
+        }
+
+        section {
+            display: flex;
+        }
+
+        section p {
+            width: 30%;
+            padding-left: 10rem;
+            font-size: 100%;
+            position: relative;
+            text-align: center;
+
+        }
