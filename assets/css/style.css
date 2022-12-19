@@ -22,6 +22,7 @@ header {
     text-align: center;
 }
 
+
 /*navigation links*/
 
 
@@ -30,13 +31,16 @@ header {
 
     list-style-type: none;
     font-size: 140%;
-    position: center;
+    position:relative
 
 }
+
 
 #menu a {
     text-decoration: none;
     color: black;
+    float: right;
+    margin-right: 205px;
 }
 
 #menu a:hover {
@@ -92,18 +96,22 @@ div.desc {
 /*footer*/
 
 footer {
-    margin-top: 100%;
+    margin-top: 50%;
 }
 
 /*social links*/
 
-
 .social-networks {
     text-align: center;
+    font-size: 80%;
   
 }
 
 .social-networks>li {
+    text-decoration: none;
+    float: right;
+    margin-right: 205px; 
+   
    
 }
 
