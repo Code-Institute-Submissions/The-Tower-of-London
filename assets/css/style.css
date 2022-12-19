@@ -31,8 +31,7 @@ header {
 
     list-style-type: none;
     font-size: 140%;
-    position:relative
-
+    position: relative
 }
 
 
@@ -104,13 +103,13 @@ footer {
 .social-networks {
     text-align: center;
     font-size: 80%;
-  
+
 }
 
 .social-networks>li {
     float: right;
-    margin-right: 250px; 
-    list-style-type: none;  
+    margin-right: 250px;
+    list-style-type: none;
 }
 
 
@@ -125,12 +124,85 @@ footer {
         margin-left: 40%;
         margin-bottom: 0%;
         float: left;
+        font-size: 70%;
 
     }
 
     #logo {
-        font-size: 200%;
+        font-size: 40px;
 
     }
 
+    p {
+        font-size: 80%;
+    }
+
+h1 {
+    font-size: 150%;
+}
+header {
+    font-size: 150%;
+
+}
+}
+
+/*For screens of 600px*/
+
+@media screen and (max-width:600px) {
+
+    #menu li {
+
+        margin-left: 40%;
+        margin-bottom: 0%;
+        float: left;
+        font-size: 70%;
+
+    }
+
+    #logo {
+        font-size: 30px;
+
+    }
+
+    p {
+        font-size: 80%;
+    }
+
+h1 {
+    font-size: 150%;
+}
+header {
+    font-size: 150%;
+
+}
+}
+/*For screens of 800px*/
+
+@media screen and (max-width:800px) {
+
+    #menu li {
+
+        margin-left: 40%;
+        margin-bottom: 0%;
+        float: left;
+        font-size: 70%;
+
+    }
+
+    #logo {
+        font-size: 50px;
+
+    }
+
+    p {
+        font-size: 80%;
+    }
+
+h1 {
+    font-size: 150%;
+}
+header {
+    font-size: 150%;
+
+}
 }
