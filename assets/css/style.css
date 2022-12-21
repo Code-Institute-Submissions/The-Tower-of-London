@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -9,15 +6,16 @@
 }
 
 #logo {
-    font-family: Cinzel Decorative;
-    font-size: 200%;
-    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 280%;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 
-header {
-    font-size: 200%;
-    font-family: 'Luxurious Roman', cursive;
+h1 {
+    font-size: 270%;
+    font-family: 'Times New Roman', Times, serif
     color: black;
     text-align: center;
 }
@@ -28,11 +26,10 @@ header {
 #menu {
 
     list-style-type: none;
-    font-size: 120%;
-   
-
+    font-size: 300%;
+    display: flex;
+    
 }
-
 
 #menu a {
     text-decoration: none;
@@ -45,16 +42,16 @@ header {
 }
 
 
- 
-nav ul{ 
-	list-style: none; 
-	
-} 
- 
-nav ul li{ 
-	display:  inline-block; 
-    margin-right: 40px;
-    margin-top: 2%;
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    display: flex;
+    font-size: 70%;
+    
 }
 
 
@@ -67,72 +64,51 @@ img {
 
 h1 {
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #opening-times {
     width: 100%;
-    height: 40%;
+    height: 50%;
     position: sticky;
 
 
-    padding-top: 40px;
+    padding-top: 5px;
     padding-left: 10px;
+    padding-bottom: 10px;
 
     background-color: rgba(241, 109, 107, .4);
 }
 
-#about {
-    flex-direction: ;
-}
-
-
 /*gallery styling*/
 
-div.gallery {
-    margin: 20px;
-    border: 1px solid #ccc;
-    width: 300px;
-    height: auto;
-    display: inline-block;
-}
 
-div.gallery:hover {
-    border: 1px solid #777;
-
-}
 
 div.gallery img {
-    width: 100%;
-    height: auto;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
 
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
 }
 
 /*footer*/
 
 footer {
     margin-top: 10%;
-    display:inline-block;
+    display: inline-block;
     margin-left: 15%;
 }
 
 /*social links*/
 
 .social-networks {
-    text-align: center;
-    font-size: 80%;
 
-}
-
-.social-networks>li {
-    float: right;
-    margin-right: 250px;
     list-style-type: none;
+    display: flex;
+
 }
+
 
 
 /*Media Queries*/
@@ -141,16 +117,16 @@ footer {
 
 @media screen and (max-width:480px) {
 
-    nav ul li{ 
-        display:  inline-block; 
-        margin-right: 40px;
-        margin-top: 2%;
-        font-size: 60%;
-        margin-left: 20%;
+    #logo {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 120%;
+        text-align: left;
     }
 
-    #logo {
-        font-size: 60px;
+    nav ul li {
+        display: flex;
+        flex-direction: row;
+        font-size: 70%;
 
     }
 
@@ -159,49 +135,47 @@ footer {
     }
 
     h1 {
-        font-size: 120%;
-    }
-
-    h2 {
-        font-size: 110%;
-    }
-
-    header {
-        font-size: 120%;
-
-    }
-}
-
-/*for small mobile screens of 731px*/
-
-@media screen and (max-width:731px) {
-
-    nav ul li{ 
-        display:  inline-block; 
-        margin-top: 2%;
-        font-size: 80%;
-    }
-
-    #logo {
-        font-size: 60px;
-
-    }
-
-    p {
         font-size: 100%;
     }
 
-    h1 {
-        font-size: 120%;
-    }
-
     h2 {
-        font-size: 110%;
+        font-size: 100%;
     }
 
     header {
-        font-size: 120%;
+        font-size: 100%;
 
     }
 }
 
+/*for mobile screens of 568px*/
+
+@media screen and (max-width:568px) {
+
+    #logo {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 120%;
+        text-align: left;
+    }
+
+    nav ul li {
+        display: flex;
+        flex-direction: row;
+        font-size: 70%;
+    }
+
+
+    p {
+        font-size: 70%;
+    }
+
+    h1 {
+        font-size: 100%;
+    }
+
+    h2 {
+        font-size: 100%;
+    }
+
+
+}
