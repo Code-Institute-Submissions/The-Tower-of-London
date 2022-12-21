@@ -25,15 +25,12 @@ header {
 
 /*navigation links*/
 
-
-
 #menu {
 
-   
+
     list-style-type: none;
     font-size: 140%;
     position: absolute;
-  
 
 }
 
@@ -41,13 +38,28 @@ header {
 #menu a {
     text-decoration: none;
     color: black;
-    float:right;
-    margin-left: 20%;
-   
+
 }
 
 #menu a:hover {
     border-bottom: 1px solid black;
+}
+nav{ 
+	width: 1000px; 
+	display: block; 
+	margin: auto; 
+	background: #eee; 
+} 
+ 
+nav ul{ 
+	list-style: none; 
+	
+} 
+ 
+nav ul li{ 
+	display:  inline-block; 
+    margin-right: 40px;
+    margin-top: 2%;
 }
 
 
@@ -63,27 +75,21 @@ h1 {
 }
 
 #opening-times {
-    width:100%;
-    height:40%;
-    position:sticky;
-  
+    width: 100%;
+    height: 40%;
+    position: sticky;
+
 
     padding-top: 40px;
     padding-left: 5px;
 
-    background-color:rgba(241,109,107, .4);
+    background-color: rgba(241, 109, 107, .4);
 }
 
 #about {
     flex-direction: ;
 }
-/*footer styling*/
 
-footer {
-
-    clear: both;
-
-}
 
 /*gallery styling*/
 
@@ -138,74 +144,45 @@ footer {
 
 @media screen and (max-width:480px) {
 
-    #menu li {
-       
-        margin-left: 40%;
-        margin-bottom: 0%;
-        float: left;
-        font-size: 70%;
-
+    nav ul li{ 
+        display:  inline-block; 
+        margin-right: 40px;
+        margin-top: 2%;
+        font-size: 60%;
     }
 
     #logo {
-        font-size: 40px;
+        font-size: 60px;
 
     }
 
     p {
-        font-size: 80%;
-    }
-
-h1 {
-    font-size: 150%;
-}
-header {
-    font-size: 150%;
-
-}
-}
-
-/*For screens of 600px*/
-
-@media screen and (max-width:600px) {
-
-    #menu li {
-
-        margin-left: 40%;
-        margin-bottom: 0%;
-        float: left;
         font-size: 70%;
-
     }
 
-    #logo {
-        font-size: 30px;
-
+    h1 {
+        font-size: 120%;
     }
 
-    p {
-        font-size: 80%;
+    h2 {
+        font-size: 110%;
     }
 
-h1 {
-    font-size: 150%;
+    header {
+        font-size: 120%;
+
+    }
 }
-header {
-    font-size: 150%;
 
-}
-}
-/*For screens of 800px*/
+/*for small mobile screens of 480px*/
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:480px) {
 
-    #menu li {
-        flex-direction:row;
-        margin-left: 40%;
-        margin-bottom: 0%;
-        float: left;
-        font-size: 70%;
-
+    nav ul li{ 
+        display:  inline-block; 
+        margin-right: 40px;
+        margin-top: 2%;
+        font-size: 60%;
     }
 
     #logo {
@@ -214,14 +191,55 @@ header {
     }
 
     p {
-        font-size: 80%;
+        font-size: 70%;
     }
 
-h1 {
-    font-size: 150%;
-}
-header {
-    font-size: 150%;
+    h1 {
+        font-size: 120%;
+    }
 
+    h2 {
+        font-size: 110%;
+    }
+
+    header {
+        font-size: 120%;
+
+    }
 }
+
+/*for small mobile screens of 731px*/
+
+@media screen and (max-width:731px) {
+
+    nav ul li{ 
+        display:  inline-block; 
+        margin-right: 40px;
+        margin-top: 2%;
+        font-size: 60%;
+    }
+
+    #logo {
+        font-size: 50px;
+
+    }
+
+    p {
+        font-size: 70%;
+    }
+
+    h1 {
+        font-size: 120%;
+    }
+
+    h2 {
+        font-size: 110%;
+    }
+
+    header {
+        font-size: 120%;
+
+    }
 }
+
+/
