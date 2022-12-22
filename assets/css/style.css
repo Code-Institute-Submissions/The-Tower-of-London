@@ -14,12 +14,17 @@
 
 
 h1 {
-    font-size: 270%;
+    font-size: 200%;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
+p {
+    font-size: 150%;
+}
 
-
+#about {
+   
+}
 /*navigation links*/
 
 #menu {
@@ -27,6 +32,8 @@ h1 {
     list-style-type: none;
     font-size: 300%;
     display: flex;
+   
+ 
     
 }
 
@@ -83,14 +90,14 @@ h1 {
 
 .timeline {
     text-align: center;
-    font-size: 130%;  
+    font-size: 100%;  
 }
 /*gallery styling*/
 
 
 div.gallery img {
-    width: 40%;
-    height: 40%;
+    width: 20%;
+    height: 20%;
     display:inline-block;
 
 }
