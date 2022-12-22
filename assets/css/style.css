@@ -52,11 +52,14 @@ p {
 nav ul {
     list-style: none;
 
+
 }
 
 nav ul li {
     display: flex;
     font-size: 70%;
+    display: inline-block;
+
 
 }
 
@@ -74,8 +77,8 @@ h1 {
 }
 
 #opening-times {
-    width: 100%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     position: sticky;
 
 
@@ -105,19 +108,14 @@ div.gallery img {
 
 /*footer*/
 
-footer {
-    margin-top: 10%;
-    margin-left: 15%;
-    height:150px;
-}
 
 /*social links*/
 
-.social-networks {
+.social-networks>li {
 
     list-style-type: none;
-    display: flex;
     display: inline-block;
+    margin-block-start: 50px; 
 
 }
 
@@ -158,6 +156,12 @@ footer {
         font-size: 100%;
 
     }
+}
+
+footer {
+    margin-top: 10%;
+    margin-left: 15%;
+    height: 1px
 }
 
 /*for mobile screens of 568px*/
