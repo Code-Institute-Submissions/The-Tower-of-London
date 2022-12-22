@@ -59,6 +59,8 @@ nav ul li {
     display: flex;
     font-size: 70%;
     display: inline-block;
+    width: 5%;
+    padding-left: 10%;
 
 
 }
@@ -88,6 +90,7 @@ h1 {
 
     background-color: rgba(241, 109, 107, .4);
 }
+
 
 /*Tieline styling*/
 
