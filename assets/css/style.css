@@ -12,6 +12,10 @@
     text-transform: uppercase;
 }
 
+.body {
+    background-image: url(lion.png);
+}
+
 
 h1 {
     font-size: 200%;
@@ -97,6 +101,7 @@ h1 {
     padding-left: 35%;
     padding-right: 35%;
     font-size: 100%;
+   
 
    
 }
@@ -111,18 +116,65 @@ div.gallery img {
 
 }
 
-/*footer*/
+/*contact form*/
 
+.form-section {
+    clear: left;
+    background-image: url(../images/lion.png);
+    background-position: right;
+    height: 400px;
+}
+
+
+.signup-form {
+    margin: 140px 10% 0 0;
+    color: black;
+
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h5 {
+    color:black;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: black;
+    width: 15%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid purple;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: purple;
+}
+
+/*footer*/
+footer {
+    margin-top: 0%;
+    font-size:55%;
+    padding-right: 30%;
+    padding-left: 20%;
+    padding-bottom: 20%
+}
 
 /*social links*/
+
+
 
 .social-networks>li {
 
 list-style-type: none;
 display: inline-block;
-margin-block-start: 50px;
 
 }
+
 
 /*Media Queries*/
 
