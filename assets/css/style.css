@@ -11,11 +11,7 @@
     text-align: start;
     padding-left: 35%;
     text-transform: uppercase;
-   
-}
 
-.body {
-    background-image: url(lion.png);
 }
 
 
@@ -30,7 +26,7 @@ p {
 }
 
 #about {
-margin-bottom: 40px;
+    margin-bottom: 40px;
 
 }
 
@@ -50,7 +46,7 @@ margin-bottom: 40px;
 #menu a {
     text-decoration: none;
     color: black;
-    
+
 
 }
 
@@ -72,7 +68,7 @@ nav ul li {
     display: inline-block;
     padding-left: 10px;
     text-align: center;
-  
+
 }
 
 
@@ -109,7 +105,7 @@ h1 {
     text-align: center;
     padding-left: 35%;
     padding-right: 35%;
-    font-size: 100%;   
+    font-size: 100%;
 }
 
 /*gallery styling*/
@@ -125,24 +121,31 @@ div.gallery img {
 /*contact form*/
 
 .form-section {
-    clear: left;
-    height: 400px;
+    width: 100%;
+    height: 60%;
+    padding-top: 5px;
+    padding-left: 1px;
+    padding-bottom: 10px;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    background-color: rgba(212, 183, 55, 0.4);
+
 }
 
 
 .signup-form {
     margin: 140px 10% 0 0;
     color: black;
-
     max-width: 400px;
     position: absolute;
-    left: 10%;
-    padding: 30px;
+
+ 
 }
 
-.signup-form > h5 {
-    color:black;
-    margin-bottom: 20px;
+.signup-form {
+    padding-top: 5px;
+    padding-left: 1px;
+    margin-left: 1%;
 }
 
 .text-input {
@@ -151,13 +154,14 @@ div.gallery img {
     width: 15%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid rgba(212, 183, 55, 0.4);
+    border: 1px solid rgba(180, 149, 12, 0.4);
     border-radius: 2px;
 }
 
 .text-input:hover {
-    border-color: rgba(212, 183, 55);
+    border-color: rgb(176, 147, 16);
 }
+
 .contact-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -167,22 +171,23 @@ div.gallery img {
     background-color: rgba(212, 183, 55);
     color: #fafafa;
     display: block;
-   margin-left: 47%;
-    
+    margin-left: 47%;
+
 }
 
 .contact-button:hover {
     background-color: rgb(128, 124, 0);
-    color:#fafafa;
+    color: #fafafa;
 }
 
 /*footer*/
 footer {
     margin-top: 0%;
-    font-size:55%;
+    font-size: 55%;
     padding-right: 30%;
     padding-left: 20%;
-    padding-bottom: 7%
+    padding-bottom: 7%;
+ 
 }
 
 /*social links*/
@@ -191,8 +196,8 @@ footer {
 
 .social-networks>li {
 
-list-style-type: none;
-display: inline-block;
+    list-style-type: none;
+    display: inline-block;
 
 }
 
@@ -205,7 +210,7 @@ display: inline-block;
 
     #logo {
         font-family: 'Times New Roman', Times, serif;
-   
+
     }
 
     #menu {
@@ -254,39 +259,41 @@ footer {
         flex-direction: row;
         font-size: 900%;
     }
+
     nav ul li {
         display: flex;
         font-size: 10%;
         display: inline-block;
-    
 
-}
-/*for mobile screens of 1200px*/
 
-@media screen and (max-width:1200px) {
-
-    #logo {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 250%;
-        text-align: left;
     }
 
-    #menu {
-        display: flex;
-        flex-direction: row;
-        font-size: 1000%;
-    }
+    /*for mobile screens of 1200px*/
+
+    @media screen and (max-width:1200px) {
+
+        #logo {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 250%;
+            text-align: left;
+        }
+
+        #menu {
+            display: flex;
+            flex-direction: row;
+            font-size: 1000%;
+        }
 
 
-    p {
-        font-size: 100%;
-    }
+        p {
+            font-size: 100%;
+        }
 
-    h1 {
-        font-size: 100%;
-    }
+        h1 {
+            font-size: 100%;
+        }
 
-    h2 {
-        font-size: 100%;
+        h2 {
+            font-size: 100%;
+        }
     }
-}
