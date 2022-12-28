@@ -8,8 +8,10 @@
 #logo {
     font-family: 'Times New Roman', Times, serif;
     font-size: 300%;
-    text-align: left;
+    text-align: start;
+    padding-left: 1%;
     text-transform: uppercase;
+   
 }
 
 .body {
@@ -74,7 +76,8 @@ nav ul li {
 /*hero-image*/
 img {
     width: 100%;
-    height: auto;
+    height: 20%;
+    margin-left: 1%;
 }
 
 
@@ -89,6 +92,7 @@ h1 {
     padding-top: 5px;
     padding-left: 10px;
     padding-bottom: 10px;
+    margin-left: 1%;
 
     background-color: rgba(241, 109, 107, .4);
 }
@@ -100,10 +104,7 @@ h1 {
     text-align: center;
     padding-left: 35%;
     padding-right: 35%;
-    font-size: 100%;
-   
-
-   
+    font-size: 100%;   
 }
 
 /*gallery styling*/
@@ -120,8 +121,6 @@ div.gallery img {
 
 .form-section {
     clear: left;
-    background-image: url(../images/lion.png);
-    background-position: right;
     height: 400px;
 }
 
@@ -154,6 +153,23 @@ div.gallery img {
 .text-input:hover {
     border-color: purple;
 }
+.contact-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: blueviolet;
+    color: #fafafa;
+    display: block;
+   margin-left: 47%;
+    
+}
+
+.contact-button:hover {
+    background-color: purple;
+    color:#fafafa;
+}
 
 /*footer*/
 footer {
@@ -161,7 +177,7 @@ footer {
     font-size:55%;
     padding-right: 30%;
     padding-left: 20%;
-    padding-bottom: 20%
+    padding-bottom: 7%
 }
 
 /*social links*/
