@@ -136,7 +136,7 @@ div.gallery img {
     font-family: Arial, Helvetica, sans-serif;
 
     background-color: rgba(212, 183, 55, 0.4);
- 
+
 }
 
 .signup-form {
@@ -155,7 +155,7 @@ div.gallery img {
     display: inline-block;
     flex-direction: row;
     padding-left: 3%;
-   
+
 }
 
 .text-input:hover {
@@ -180,6 +180,7 @@ div.gallery img {
     background-color: rgb(128, 124, 0);
     color: #fafafa;
 }
+
 /*footer*/
 
 footer {
@@ -188,7 +189,7 @@ footer {
     padding-right: 30%;
     padding-left: 30%;
     padding-bottom: 0%;
- 
+
 }
 
 /*social links*/
