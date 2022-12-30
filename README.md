@@ -36,8 +36,7 @@ or other websites, since the scope of information on the Tower's history is too 
 
 <img src="./assets/images/readme/pics.jpeg">
 
-The gallery shows some images taken by myself in the Tower of London. These are designed to compliment the information in the timeline, and add some decoration to the site. In future, I would like to add scroll over text or 
-pop ups to provide information on the images, but with limited time and knowledge, this wasn't possible. I made sure the links were accessible by providing an aria label for each one - including the hero image.
+The gallery shows some images taken by myself in the Tower of London. These are designed to compliment the information in the timeline, and add some decoration to the site. I made sure the links were accessible by providing an aria label for each one - including the hero image.
 
 <br>
 
